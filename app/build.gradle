@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.shikhar.androidgames.mario.core"
+        applicationId "com.raja.mario.core"
         minSdkVersion 5
         targetSdkVersion 15
     }

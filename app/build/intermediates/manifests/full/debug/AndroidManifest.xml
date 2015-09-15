@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shikhar.androidgames.mario.core"
+    package="com.raja.mario.core"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,7 +17,7 @@
         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         android:hardwareAccelerated="true">
         <activity
-            android:name="com.shikhar.androidgames.mario.core.MarioGame"
+            android:name="com.raja.mario.core.MarioGame"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
  >
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.shikhar.androidgames.mario.preferences.SetPreferencesActivity"
+            android:name="com.raja.mario.preferences.SetPreferencesActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="landscape" />
     </application>
